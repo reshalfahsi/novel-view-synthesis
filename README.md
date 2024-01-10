@@ -47,7 +47,7 @@ SSIM | 0.381 |
 
 This GIF shows the qualitative result of the NeRF.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/novel-view-synthesis/blob/master/assets/qualitative_result.gif" alt="qualitative_result" > <br /> The 3D view of a buildozer viewed from <i>z</i> = 3.5, <i>ϕ</i> = -15°, and <i>θ</i> = 0° to 360°. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/novel-view-synthesis/blob/master/assets/qualitative_result.gif" alt="qualitative_result" > <br /> The 3D view of a buildozer viewed from <i>z</i> = 3.5, <i>ϕ</i> = −15°, and <i>θ</i> = 0° to 360°. </p>
 
 
 ## Credit
