@@ -7,7 +7,7 @@
  </div>
 
 
-Legend has it that the artificial neural network (ANN) is infamously known as the universal approximator, which can fit any existing function. By exploiting this fact, we can build a network that approximates a function that maps spatial positions (_x_, _y_, _z_) and camera rays (these rays are acquired through calculation involving viewing directions (_θ_ (rotating along _y_ axis), _ϕ_ (rotating along _x_ axis)) and the spatial positions) to RGB pixels. Such a network, called the Neural Radiance Field, or NeRF in short, can be used to solve a problem of novel view synthesis of a scene. The network is coerced to overfit the function, which generates an RGB image. These generated images from multiple angles are then collected, rendering the 3D representation of a certain object. In this project, a buildozer from the Tiny NeRF dataset is used.
+Legend has it that the artificial neural network (ANN) is infamously known as the universal approximator, which can fit any existing function. By exploiting this fact, we can build a network that approximates a function that maps spatial positions (_x_, _y_, _z_) and camera rays (these rays are acquired through calculation involving viewing directions (_θ_ (rotating along _y_ axis), _ϕ_ (rotating along _x_ axis)) and the spatial positions) to RGB pixels. Such a network, called the Neural Radiance Field, or NeRF in short, can be used to solve a problem of novel view synthesis of a scene. The network is coerced to overfit the function, which generates an RGB image (and also a depth map). These generated images (the final images are procured by computing the transmittance that is applied to the freshly generated images) from multiple angles are then collected, rendering the 3D representation of a certain object. In this project, a bulldozer from the Tiny NeRF dataset is used.
 
 
 ## Experiment
@@ -47,7 +47,7 @@ SSIM | 0.381 |
 
 This GIF shows the qualitative result of the NeRF.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/novel-view-synthesis/blob/master/assets/qualitative_result.gif" alt="qualitative_result" > <br /> The 3D view of a buildozer viewed from _z_ = 3.5, _ϕ_ = -15°, and _θ_ = 0° to 360°. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/novel-view-synthesis/blob/master/assets/qualitative_result.gif" alt="qualitative_result" > <br /> The 3D view of a buildozer viewed from <i>z</i> = 3.5, <i>ϕ</i> = -15°, and <i>θ</i> = 0° to 360°. </p>
 
 
 ## Credit
